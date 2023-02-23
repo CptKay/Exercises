@@ -11,12 +11,50 @@
 </head>
 <script src="scripts/script.js"></script>
 <body>
-    <div class="col-md-12 text-center">
-        <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return fortuneTeller();"> future</button>
-        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return ageCalc();"> age</button>
-        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return supCalc();"> supplies</button>
+    <div class="container text-center">
+      <h1>Exercises</h1>
+      <div class="row-md-12">
+        <!-- <form action="" method="post">
+          <div class="mb-3">
+            <label for="childNo" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div> 
+
+        </form> -->
+      <div class="col-md-12">
+      <div class="row-md-12">
+        <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return fortuneTeller(5, 'Mary', 'Hampton', 'Director');"> future 1</button>
+        <div class="col-md-12">
+          <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return puppyAgeCalc(5);"> puppy 1</button>  
+      </div>
+      <div class="col-md-12">
+        <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return puppyAgeCalc(3);"> puppy 2</button>  
+    </div>
+    <div class="col-md-12">
+      <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return puppyAgeCalc(2);"> puppy 3</button>  
+  </div>
+      </div>
+        <div class="row-md-12">
+          <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return fortuneTeller(2, 'Lola', 'Florida', 'Designer');"> future 2</button>
+        </div>
+        <div class="row-md-12">
+          <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return fortuneTeller(3, 'Petra', 'Russia', 'Officer');"> future 3</button>
+        </div>
+        <div class="row-md-12">  
+        <!-- <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return ageCalc();"> age</button> -->
+        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return supCalc(1950, 7);"> supplies 1</button>
+        <div class="col-md-12">
+          <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return supCalc(1980, 10);"> supplies 2</button>  
+      </div>
+      <div class="col-md-12">
+        <button type="button" value="Start" class="btn btn-primary btn-lg mb-5 py-0" onClick= "return supCalc(1990, 15);"> supplies 3</button>  
+    </div>
         <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return circArCalc();"> Circ/Area</button>
         <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return tempConv();"> convert</button>
+        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return drEvil(10);"> drEvil10</button>
+        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return drEvil(1000000);"> drEvil</button>
+        <button type="button" value="Hallo" class="btn btn-primary btn-lg mb-5 py-0" id="greeting-button" onClick="return mixUp('pomo', 'doro');"> mixUp</button>
         
      
      
@@ -26,6 +64,9 @@ btn.addEventListener("click" function() {
   alert("Hallo");
 });
     </script> -->
-      </div>
+  </div>
+</div>
+  </div>    
+  </div>
 </body>
 </html>
